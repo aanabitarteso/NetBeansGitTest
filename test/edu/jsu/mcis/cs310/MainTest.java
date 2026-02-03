@@ -36,5 +36,4 @@ public class MainTest {
         assertEquals(expected, actual);
         System.out.println("Actual result: " + actual);
     }
-
 }
