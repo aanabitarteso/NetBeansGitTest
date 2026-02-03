@@ -10,6 +10,17 @@ package edu.jsu.mcis.cs310;
  */
 public class Main {
     public static void main(String[] args) {
-        System.out.println(TestClass.testMethod1());
-}
+        Main m = new Main();
+        System.out.println(m.getGreeting());
+    }
+    
+    public String getGreeting() {
+        return "Hello, World!";
+    }
+    
+    public String reverse(String s) {
+        StringBuilder sb = new StringBuilder(s);
+        return sb.reverse().toString();
+    }
+
 }
